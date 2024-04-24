@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Disney</title>
+    <meta name="description" content="Explora una lista de personajes de Disney. Encuentra información sobre tus personajes favoritos de películas, programas de televisión y videojuegos.">
+    <!-- Etiquetas para SEO -->
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Disney, personajes, películas, programas de televisión, videojuegos">
+    <!-- Etiquetas para redes sociales (OG) -->
+    <meta property="og:title" content="Personajes de Disney">
+    <meta property="og:description" content="Explora una lista de personajes de Disney. Encuentra información sobre tus personajes favoritos de películas, programas de televisión y videojuegos.">
+    <meta property="og:image" content="https://static.wikia.nocookie.net/disney/images/9/99/Mickey_Mouse_Disney_3.jpeg">
+    <meta property="og:url" content="https://disney.formen.cc">
+    <meta property="og:type" content="website">
+    <!-- Etiqueta para Twitter (Twitter Card) -->
+    <meta name="twitter:card" content="https://static.wikia.nocookie.net/disney/images/9/99/Mickey_Mouse_Disney_3.jpeg">
+    <meta name="twitter:site" content="@kuikilod">
+    <meta name="twitter:title" content="Personajes de Disney">
+    <meta name="twitter:description" content="Explora una lista de personajes de Disney. Encuentra información sobre tus personajes favoritos de películas, programas de televisión y videojuegos.">
+    <meta name="twitter:image" content="https://static.wikia.nocookie.net/disney/images/9/99/Mickey_Mouse_Disney_3.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button onclick="searchCharacters()"><i class="fas fa-search"></i>Buscar</button>
+        </div>
+        <div id="loader" class="loader">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+        <div id="charactersContainer" class="card-container">
+            <!-- Aquí se mostrarán las tarjetas de personajes -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
